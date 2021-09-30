@@ -32,6 +32,8 @@ export default function Home() {
         <p className={styles.description}>Enter values and get your color </p>
         <form action="" onSubmit={final}>
           <ChromePicker color={res} onChangeComplete={pickerite} />
+          <div className="inputs">
+
           <input value={r} className="form-control my-2" onChange={handleR} />
           <input value={g} className="form-control  my-2" onChange={handleG} />
           <input value={b} className="form-control my-2" onChange={handleB} />
@@ -41,6 +43,7 @@ export default function Home() {
           <CopyToClipboard text={res}>
             <button type="button" className="btn btn-primary mx-2">Copy</button>
           </CopyToClipboard>
+          </div>
         </form>
       </main>
       <footer className={styles.footer}>

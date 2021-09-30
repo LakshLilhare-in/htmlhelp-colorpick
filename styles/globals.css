@@ -14,3 +14,14 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.chrome-picker{
+
+  margin-bottom: -19rem;
+  margin-left: -9rem;
+
+}
+.inputs {
+  margin-top: 6rem;
+  margin-left: 9rem;
+}
