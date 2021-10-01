@@ -38,7 +38,7 @@ export default function Home() {
           <input value={g} className="form-control  my-2" onChange={handleG} />
           <input value={b} className="form-control my-2" onChange={handleB} />
           <button type="submit" name="" id="" className="btn btn-primary">
-            Manual Generate
+            Preview
           </button>
           <CopyToClipboard text={res}>
             <button type="button" className="btn btn-primary mx-2">Copy</button>
@@ -46,11 +46,6 @@ export default function Home() {
           </div>
         </form>
       </main>
-      <footer className={styles.footer}>
-        <a target="_blank" rel="noopener noreferrer">
-          Powered by Laksh{" "}
-        </a>
-      </footer>
     </div>
   );
 }
