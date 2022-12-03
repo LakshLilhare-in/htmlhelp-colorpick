@@ -22,7 +22,6 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Project Star Light</title>
       </Head>
       <main className={styles.main}>
 
